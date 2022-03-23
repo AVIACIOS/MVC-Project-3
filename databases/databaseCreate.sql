@@ -7,7 +7,7 @@ CREATE TABLE `users`(
 );
 
 CREATE TABLE `posts` (
-                         `id` INT AUTO_INCREMENT PRIMARY KEsY,
+                         `id` INT AUTO_INCREMENT PRIMARY KEY,
                          `user_id` INT,
                          `name` VARCHAR(128),
                          `descriptions` TEXT,

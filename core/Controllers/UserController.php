@@ -81,6 +81,6 @@ class UserController extends BaseController
         # записываем в сессию ID пользователя!
         $_SESSION['id'] = $fUser[0]['id'];
 
-        return header('Location: /');
+        return redirect('/');
     }
 }
